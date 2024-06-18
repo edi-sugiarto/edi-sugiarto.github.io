@@ -2041,6 +2041,7 @@ input, select, textarea {
 		border: solid 2px;
 		margin-bottom: 2rem;
 		padding: 1.5rem;
+		text-align: center;
 	}
 
 		.box > :last-child,
@@ -2585,6 +2586,17 @@ input, select, textarea {
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
+
+		.icon.featured {
+			color: #9b743e;
+			display: block;
+			margin: 0 0 1.5em 0;
+			cursor: default;
+		}
+
+			.icon.featured:before {
+				font-size: 6em;
+			}
 
 /* Image */
 
